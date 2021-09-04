@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRAVELLER</title>
+    <link rel="icon" href="./images/logo.png.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nova+Cut&display=swap');
+        </style>
+        <script src="https://kit.fontawesome.com/d22b9f41b2.js"crossorigin="anonymous"></script>
+  
+</head>
+<body id="top">
+   <header>
+       <a href="#" class="logo"><img src="./images/logo.png.png"></a>
+       <ul class="navigation" id="nav">
+       
+        <i class="fab fa-mixer" id="icon2" onclick="menuOff()"></i>
+           <li><a href="#top" class = "cool-links">home</a></li>
+           <li><a href="#gallery"class = "cool-links">gallery</a></li>
+           <li><a href="#content"class = "cool-links">contact</a></li>
+           <li><a href="#media"class = "cool-links">media</a></li>
+       </ul>
+      <label id="icon" onclick="menu()">
+        <i class="fas fa-bars"></i>
+      </label>
+      
+      
+   </header>
+   <div class="banner">
+       <!-- <img src="travel1.jpg.jpg" class="bg-img"> -->
+       <h2>sri lakshmi travels. </h2>
+   </div>
+   
+   <div class="card-cointainer" id="gallery"> 
+       <div class="gallery-text">GALLERY</div> 
+   <div class="slides">  
+       <div class="card">
+     <img src="./images/travel image-1.jpg " />
+    </div>
+    <div class="card">
+      <span class="hold"> <img src="./images/travel image-2.jpeg" /></span> 
+       </div><div class="card">
+        <img src="./images/travel image-3.jpeg" />
+       </div><div class="card">
+<span class="hold"><img src="./images/travel image-4.jpeg" /></span>
+       </div><div class="card">
+        <img src="./images/travel image-5.jpeg" />
+       </div>
+
+
+
+    </div>
+    </div>
+       
+      </div>   
+    <div class="content" id="content">
+            <div class="form1">
+                <h1>GET IN TOUCH</h1><br><hr><br>
+                    <form action="#">
+                        <label for="name">NAME :</label>
+                        <input type="text" size="20" maxlength="25" placeholder="your name" required>  <br><br>
+                        <label for="phone number">PHONE NUMBER :</label>
+                        <input type="text" size="20" maxlength="20" placeholder="mobile number" required>  <br><br>
+                        <label for="address">ADDRESS :</label>
+                        <input type="text" size="20" maxlength="35" placeholder="your address" required> <br><br>
+                        <label for="pick up">PICK UP :</label>
+                        <input type="text" size="20" maxlength="35" placeholder="start point" required>  <br><br>
+                        <label for="drop">DROP :</label>
+                        <input type="text" size="20" maxlength="35" placeholder="destination" required>  <br><br>
+                        <label for="start date">STARTING DATE :</label>
+                        <input type="date"><br><br>
+                        <label for="end date">ENDING DATE :</label>
+                        <input type="date"><br><br>
+                        <label>NUMBER OF PERSONS :</label>
+                        <select no of persons = "number of person">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select> <br><br>
+                        <label>COVID CHECKUP :</label><br>
+                        <input type="radio" name="covid" value="checked">CHECKED <br> 
+                        <input type="radio" name="covid" value="not-checked"> NOT-CHECKED <br> 
+
+                        <br>
+                        <input class="submit-btn" type="submit" value="submit"><br><br>
+                        <input class = "reset-btn" type="reset" value="reset">
+                    </form>
+            </div>
+    </div>
+            <div class="row1">
+                        
+                        <iframe width="700px" height="400px" src="https://www.youtube.com/embed/35npVaFGHMY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <footer>
+                <div class="address-card">
+                     <h1>LOCATION</h1><br>            
+                <address>
+                    <i class="fas fa-map-marker-alt"></i>
+                   NO.25,Sony Nagar,<br>
+                   Gandhi Salai,<br>
+                   Velachery,<br>
+                   chennai -42.
+                </address>
+            
+                <p><h4><i class="fas fa-envelope mail"></i><e-mail>murugeshm.bm.94@gmail.com</e-mail></h4>
+                    <h4> <i class="fas fa-phone phone"></i>044-42325305</h4>
+                    <h4><i class="fas fa-mobile-alt mobile"></i>9524927528</h4>
+                </p>
+            </div>
+                
+                <div class="follow-card" id="media">
+                    <h1>FOLLOW US ON SOCIALMEDIA</h1>
+                <div class="socialmedia-icons">
+                <ul>
+                <li> <a href="#" ><i class="fab fa-facebook-f"></i></a></li>
+                <li> <a href="#" ><i class="fab fa-twitter"></i></a></li>
+                <li> <a href="#" ><i class="fab fa-instagram"></i></a> </li>
+                <li> <a href="#" ><i class="fab fa-whatsapp"></i></a> </li>
+                </ul>
+             </div>
+            </div>
+            
+            <div class="copyright">
+               <p> TRAVELLER &#169 Copyright 2021.<br>All Rights Reserved.</p>  
+            </div>
+        </footer>
+</div>
+</body>
+</html>
